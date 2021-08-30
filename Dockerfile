@@ -46,7 +46,7 @@ RUN sed -i -e "s/memory_limit\s*=\s*128M/memory_limit = 8G/g" /etc/php/7.4/apach
 #	&& chmod 777 filestore \
 #	&& chmod -R 777 include
 
-#scarico ed installo ResourceSpace versione 9.4
+#scarico ed installo ResourceSpace versione 9.6
 RUN mkdir /var/www/html.first \
     && cd /var/www/html.first \
 	&& svn co http://svn.resourcespace.org/svn/rs/releases/9.6 . \
